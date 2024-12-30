@@ -79,13 +79,13 @@ python3 server_out_auto.py
 在命令行执行：
 
 ```
-python client_in_auto.py
+python3 client_in_auto.py
 ```
 将本地麦克风音频发送到服务器 :50007。断线会自动等待 5 秒并重连。
 再在另一个命令行执行：
 
 ```
-python client_out_auto.py
+python3 client_out_auto.py
 ```
 连接服务器 :50008，获取会议音频并在本地扬声器播放。若断线也会自动重连。
 
